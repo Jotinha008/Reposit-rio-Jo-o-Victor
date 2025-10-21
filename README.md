@@ -5,9 +5,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script>
     $(document).ready(function() {
-      
       $("#botao").click(function() {
-        
         $("#mensagem").text("Você clicou no botão!").css("background-color", "yellow");
       });
     });
